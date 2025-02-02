@@ -8,7 +8,7 @@ const server = http.createServer(app);
 
 const io = socketIo(server, {
   cors: {
-    origin: ["http://localhost:3000", "https://rpsclash.netlify.app/"],
+    origin: ["http://localhost:3000", "https://rpsclash.netlify.app"],
     methods: ["GET", "POST"]
   }
 });
